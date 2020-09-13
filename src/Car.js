@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Car(){
+function Car(props){
     return(
 <>
-<h1>I Have </h1>
-<h1>I Have </h1>
-<h1>I Have </h1>
+<h1>I Have{props.car1} </h1>
+<h1>My friend has {props.car2} </h1>
+<h1>My uncle has {props.car3}</h1>
 </>
     )
 }

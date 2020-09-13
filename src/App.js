@@ -3,7 +3,7 @@ import Car from './Car';
 
 function App() {
   return (
-    <Car/>
+    <Car car1="civic" car2="Toyota Corolla" car3="WolksVegan"/>
   );
 }
 
