@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Car from './Car';
 
 function App() {
   return (
-    <h1>Hello from sajid</h1>
+    <Car/>
   );
 }
 
